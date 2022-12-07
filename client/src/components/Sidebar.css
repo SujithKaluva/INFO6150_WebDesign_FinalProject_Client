@@ -4,3 +4,11 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.sidebar-online-status {
+    color: green;
+}
