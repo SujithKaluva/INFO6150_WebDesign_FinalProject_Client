@@ -53,7 +53,7 @@ const Dashboard = (props) => {
     
     return(
     <div id="dashboard-main" className='dashboard-main'>
-        <DashboardSection title="FLEXERCISE" selector={props.exercise.length>0?true:false} onClickOfTimeline={onClickOfExerciseTimeline} content={
+        <DashboardSection title="EXERCISE" selector={props.exercise.length>0?true:false} onClickOfTimeline={onClickOfExerciseTimeline} content={
             props.exercise.length<1?
             <MessageDisplay link={"/journal"} message={[<u>Click here</u>," to get started on your fitness journey today"]}/>:
             <ActivitySlider activities={props.exercise} loader={loader} category={"exercise"}/>

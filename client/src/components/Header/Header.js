@@ -33,7 +33,7 @@ const Header = (props) => {
     <div className="main-layout-container"> 
         <div className="header-wrapper">
           <div className="header-logo">
-              <img alt="app-logo" src={AppLogo} />
+              {/* <img alt="app-logo" src={AppLogo} /> */}
           </div>
             <nav className="header-nav"> 
                 <Typography paddingRight={2} color='secondary.light'><Link to="/">Dashboard</Link></Typography>
